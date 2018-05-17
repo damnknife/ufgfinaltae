@@ -1,5 +1,5 @@
 import csv
-f = open("NO2.txt", 'r', encoding='ANSI') #list with names and grades from exam 1, just copied from official grades pdf
+f = open("grade1.txt", 'r', encoding='ANSI') #list with names and grades from exam 1, just copied from official grades pdf
 y = f.read()
 y = y.splitlines() #each text line contains 1 information, thats the way i found to copy the pdf
 names = [] #names of the applicants
@@ -14,7 +14,7 @@ for applicant in list1:
 
 
 
-f2 = open("nd.txt", 'r', encoding='ANSI') #list with names and grades from exam 2, just copied from official grades pdf
+f2 = open("grade2.txt", 'r', encoding='ANSI') #list with names and grades from exam 2, just copied from official grades pdf
 y2 = f2.read()
 y2 = y2.splitlines()
 
