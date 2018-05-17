@@ -1,4 +1,4 @@
-The NO2.txt file contain the grades from the first exam and they are in the following format:
+The grade1.txt file contain the grades from the first exam and they are in the following format:
 
 1- Name
 
@@ -9,7 +9,7 @@ The NO2.txt file contain the grades from the first exam and they are in the foll
 Then it repeats itself, every 3 lines, for each candidate.
 
 
-The nd.txt file contain the grades from the second exam and they are in the following format:
+The grade2.txt file contain the grades from the second exam and they are in the following format:
 
 1- Name
 
